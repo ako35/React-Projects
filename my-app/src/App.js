@@ -7,6 +7,8 @@ import Tablo from './components/05-component/Tablo'
 import Product from './components/06-component/Product'
 import Ulkeler from './components/07-component/Ulkeler'
 import Kisiler from './components/08-component/Kisiler'
+import Cards from './components/09-component/Cards'
+import Shop from './components/10-component/Shop'
 
 
 const App = () => {
@@ -27,6 +29,10 @@ const App = () => {
       <Ulkeler />
       <hr />
       <Kisiler />
+      <hr />
+      <Cards />
+      <hr />
+      <Shop />
       <hr />
     </div>
   )
