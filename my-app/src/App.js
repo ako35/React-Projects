@@ -9,6 +9,9 @@ import Ulkeler from './components/07-component/Ulkeler'
 import Kisiler from './components/08-component/Kisiler'
 import Cards from './components/09-component/Cards'
 import Shop from './components/10-component/Shop'
+import RandomImage from './components/11-component/RandomImage'
+import Sairler from './components/12-component/Sairler'
+import Akis from './components/13-component/Akis'
 
 
 const App = () => {
@@ -33,6 +36,12 @@ const App = () => {
       <Cards />
       <hr />
       <Shop />
+      <hr />
+      <RandomImage />
+      <hr />
+      <Sairler />
+      <hr />
+      <Akis />
       <hr />
     </div>
   )
