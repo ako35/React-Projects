@@ -12,6 +12,8 @@ import Shop from './components/10-component/Shop'
 import RandomImage from './components/11-component/RandomImage'
 import Sairler from './components/12-component/Sairler'
 import Akis from './components/13-component/Akis'
+import Paragraph from './components/14-component/Paragraph'
+import Countries from './components/15-component/Countries'
 
 
 const App = () => {
@@ -42,6 +44,10 @@ const App = () => {
       <Sairler />
       <hr />
       <Akis />
+      <hr />
+      <Paragraph />
+      <hr />
+      <Countries />
       <hr />
     </div>
   )
