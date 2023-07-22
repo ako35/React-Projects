@@ -2,8 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 
 const Country = (props) => {
-    
-    console.log(props.country);
+  
   return (
     <tr>
       <td>{props.no + 1}</td>

@@ -14,6 +14,8 @@ import Sairler from './components/12-component/Sairler'
 import Akis from './components/13-component/Akis'
 import Paragraph from './components/14-component/Paragraph'
 import Countries from './components/15-component/Countries'
+import Tours from './components/16-component/Tours'
+import Products from './components/17-component/Products'
 
 
 const App = () => {
@@ -48,6 +50,10 @@ const App = () => {
       <Paragraph />
       <hr />
       <Countries />
+      <hr />
+      <Tours />
+      <hr />
+      <Products />
       <hr />
     </div>
   )

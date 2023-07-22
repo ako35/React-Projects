@@ -18,7 +18,10 @@ const Countries = () => {
   }, []);
 
   const deleteCountry = (e) => {
-    setCountries(countries.filter((country) => country.name.common !== e));
+    const isDelete = window.confirm("Are you sure?");
+    if(isDelete){
+      setCountries(countries.filter((country) => country.name.common !== e));
+    }
   };
   return (
     <Container>
