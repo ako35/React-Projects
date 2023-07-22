@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 const ProductCard = (props) => {
-  console.log(props);
   return (
     <Card>
       <Card.Img

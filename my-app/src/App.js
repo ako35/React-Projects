@@ -16,6 +16,8 @@ import Paragraph from './components/14-component/Paragraph'
 import Countries from './components/15-component/Countries'
 import Tours from './components/16-component/Tours'
 import Products from './components/17-component/Products'
+import Home from './components/18-component/Home'
+import FormExample from './components/19-component/FormExample'
 
 
 const App = () => {
@@ -55,6 +57,9 @@ const App = () => {
       <hr />
       <Products />
       <hr />
+      <Home />
+      <hr />
+      <FormExample />
     </div>
   )
 }
